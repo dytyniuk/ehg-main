@@ -1,0 +1,15 @@
+#admin_tools{
+	position: fixed;
+	right: 0px;
+	top:0px;
+	    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+background-color: #cccccc;
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
+	-webkit-box-shadow: -7px 0px 30px rgba(50, 50, 50, 1);
+-moz-box-shadow:    -7px 0px 30px rgba(50, 50, 50, 1);
+box-shadow:         -7px 0px 30px rgba(50, 50, 50, 1);
+}

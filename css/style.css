@@ -1,0 +1,121 @@
+.rememberMe{
+    display: none;
+}
+.empty{
+    visibility: hidden;
+}
+.list-view .summary{
+    display: none;
+}
+.myPager .selected a{
+    background-color: #C3025D;
+    color: white;
+}
+.inide_p_inline p{
+    display: inline;
+}
+.fixed_left{
+ position: fixed;
+ top:0px;
+ left:0px;
+}
+.fix1{
+    position: relative;
+    display: initial;
+    visibility: hidden;
+}
+span.active a{
+    color: #FFF;
+    background: #000;
+    text-decoration: none;
+}
+
+.admin_staff{
+    width: 50%;
+    margin-left: 20%;
+}
+
+.form form .row{
+    margin-left: 10px;
+}
+@font-face {
+    font-family: 'BigNoodleTitling';
+    src: local('BigNoodleTitling'),
+        url('../fonts/Big_Noodle_Titling_Cyr.ttf'),
+        url('../fonts/Big_Noodle_Titling_Cyt.otf') format('opentype'),
+        url('../fonts/Big_Noodle_Titling_Cyt.eot') format('eot'),
+        url('../fonts/Big_Noodle_Titling_Cyt.woff') format('woff') ;
+}
+@font-face {
+
+    font-family: 'SportsWorld';
+    src: local('SportsWorld'),
+        url('../fonts/Sports_World-Regular.ttf'),
+        url('../fonts/Sports_World-Regular.otf') format('opentype'),
+        url('../fonts/Sports_World-Regular.eot') format('eot'),
+        url('../fonts/Sports_World-Regular.woff') format('woff') ;
+}
+body { background: url('img/bg.png'); margin: 0px; padding: 0px; }
+header { width: 100% }
+header .topbar { background: rgba(0, 0, 0, 0.7); height: 40px; padding-top: 10px; width: 100%;}
+header .logo { background: url('img/logo.png') left top no-repeat transparent; margin-top: -20px; height: 177px; display: block;}
+header input[type=text], footer textarea, footer input[type=text], footer input[type=email], footer input[type=tel] { font-size: x-small; color: #fff; background: rgba(0, 0, 0, 0.4); border: none;}
+header form { margin-bottom: 10px; }
+.menu { padding-top: 20px; }
+.menu A { color: #000; display: inline-block; padding: 4px 7px; text-align: center; font-weight: bold; outline: none;}
+.menu A:hover {color: #FFF; background: #000; text-decoration: none;}
+.circle { background: center top no-repeat transparent; margin: 0px auto; }
+.outer { background: url('img/main-circle.png'); width: 670px; height: 670px; position: relative; float: left; margin-top: -70px;}
+.inner { background-image: url('img/color-circle.png'); width: 338px; height: 303px; position: absolute; top: 185px; left: 170px; text-align: center}
+.inner img { margin: 75px 0px 0px 0px; }
+.stripe { padding-bottom: 20px; background: url('img/stripe.png') right bottom no-repeat transparent; height: 154px}
+.stripe-caption { background: #BECDCA; padding: 10px;}
+.stripe-caption img { margin-top: 48px; }
+.langs { margin-top: -15px; }
+.langs A { font-weight: bold; }
+.langs A.active {color: #C6274F; }
+.left-arrow { background: url('img/left-arrow.png') right bottom no-repeat; float: left; width: 200px; padding: 90px 0px 80px 30px; font-size: 20pt; color: #999; font-weight: normal; line-height: 1.2em; font-family: "BigNoodleTitling"}
+.right-arrow { background: url('img/right-arrow.png') no-repeat; background-position: 0px 100px; float: right; height: 50px; width: 250px; height: 400px;}
+.contacts {margin-left: 60px;}
+.contacts h1 { font-family: "BigNoodleTitling"; font-weight: normal; }
+a.icon { display: block; position: absolute; }
+a.business { background: url('img/signs/business.png') top center no-repeat; width: 163px; height: 85px; left: 160px; top: 24px;}
+a.sports { background: url('img/signs/sports.png') top center no-repeat; width: 90px; height: 80px; left: 355px; top: 30px;}
+a.nice-mice { background: url('img/signs/nice-mice.png') top center no-repeat; width: 119px; height: 90px; right: 60px; top: 95px; }
+a.catering { background: url('img/signs/catering.png') top center no-repeat; width: 60px; height: 105px; right: 30px; top: 220px;}
+a.kinder { background: url('img/signs/kinder.png') top center no-repeat; width: 68px; height: 85px; top: 360px; right: 35px;}
+a.promo { background: url('img/signs/promo.png') top center no-repeat; width: 99px; height: 86px; bottom: 100px; right: 90px;}
+a.think { background: url('img/signs/thinkup.png') top center no-repeat; width: 92px; height: 123px; top: 170px; left: 30px; }
+a.love { background: url('img/signs/love-n-wedding.png') top center no-repeat; width: 103px; height: 93px; top: 350px; left: 15px; }
+a.production { background: url('img/signs/production.png') top center no-repeat; width: 84px; height: 75px; bottom: 100px; left: 105px; }
+a.party { background: url('img/signs/partycorp.png') top center no-repeat; width: 85px; height: 81px; bottom: 20px; left: 230px; }
+a.holiday { background: url('img/signs/holiday.png') top center no-repeat; width: 89px; height: 54px; bottom: 35px; right: 220px; }
+div.icons-wrapper { padding-left: 8.4%;}
+a.round-icon { background-position: top center; background-repeat: no-repeat; height: 72px;}
+a.icon-production { background-image: url('img/icons/production.png'); }
+a.icon-thinkup { background-image: url('img/icons/think-up.png'); }
+a.icon-wedding { background-image: url('img/icons/love-n-wedding.png'); }
+a.icon-partycorp { background-image: url('img/icons/partycorp.png'); }
+a.icon-kinder { background-image: url('img/icons/kinder.png'); }
+a.icon-sports { background-image: url('img/icons/sports.png'); }
+a.icon-business { background-image: url('img/icons/business.png'); }
+a.icon-nice-mice { background-image: url('img/icons/nice-mice.png'); }
+a.icon-holiday { background-image: url('img/icons/holiday.png'); }
+a.icon-catering { background-image: url('img/icons/catering.png'); }
+a.icon-promo { background-image: url('img/icons/promo-n-producing.png'); }
+img.moto { margin: -50px 0px 20px -50px; }
+footer .orange { color: #F19E39; }
+footer .bottom-bar { margin-top: 50px; background: rgba(0, 0, 0, 0.7); padding-top: 30px; color: #FFF; font-size: small}
+footer .bottom-bar .news a { color: #F19E39; }
+footer h4 { margin: 0; color: #F19E39; text-align: center }
+.brief { background: url('img/bottom-arrow.png') no-repeat 0px 10px; padding: 0px 0px 10px 30px ;}
+.brief a { margin-top: 25px; }
+a.social { display: inline-block; background-position: top left; background-repeat: no-repeat; width: 30px; height: 30px; margin-right: 15px;}
+a.facebook { background-image: url('img/fbook.png'); }
+a.vk { background-image: url('img/vk.png'); }
+a.twitter { background-image: url('img/twitter.png'); }
+.category-header { background: url('img/color-circle.png') center top no-repeat; font-family: "SportsWorld"; font-size: 52pt; height: 250px; text-align: center; padding-top: 70px; line-height: 1.2em; margin-top: 40px; color: #A0ADA7}
+.pagination a {color: #000; }
+.pagination a:hover, .pagination a:focus, .pagination ul > li.active > a:hover {color: #C3025D; }
+.pagination ul > li.active > a { background-color: #C3025D; color: #FFF;}
+div.thumbnail { background: #FFF; }
