@@ -6,43 +6,43 @@ $this->pageTitle=Yii::app()->name;
 
     <article class="hidden-phone">
     <div class="row-fluid">
-        <div style="width: 1170px; margin: 0px auto">
-            <div class="left-arrow visible-desktop">
-                1. BUSINESS<br/>
-                2. THINK UP! CONCEPT<br/>
-                3. LOVE & WEDDING<br/>
-                4. PRODUCTION<br/>
-                5. NICE MICE<br/>
-                6. SPORTS<br/>
-                7. CATERING<br/>
-                8. KINDER<br/>
-                9. PROMO & PRODUCERING<br/>
-                10. PARTY CORP.<br/>
-                11. HOLIDAY<br/>
-            </div>
+        <div class="span3 left-arrow visible-desktop">
+            1. BUSINESS<br/>
+            2. THINK UP! CONCEPT<br/>
+            3. LOVE & WEDDING<br/>
+            4. PRODUCTION<br/>
+            5. NICE MICE<br/>
+            6. SPORTS<br/>
+            7. CATERING<br/>
+            8. KINDER<br/>
+            9. PROMO & PRODUCERING<br/>
+            10. PARTY CORP.<br/>
+            11. HOLIDAY<br/>
+        </div>
+        <div class="span6">
             <div class="circle outer">
-                <a href="#" class="icon business"></a>
-                <a href="#" class="icon sports"></a>
-                <a href="#" class="icon think"></a>
-                <a href="#" class="icon love"></a>
-                <a href="#" class="icon production"></a>
-                <a href="#" class="icon party"></a>
-                <a href="#" class="icon holiday"></a>
-                <a href="#" class="icon nice-mice"></a>
-                <a href="#" class="icon catering"></a>
-                <a href="#" class="icon kinder"></a>
-                <a href="#" class="icon promo"></a>
+                <a href="#" class="icon business">BUSINESS</a>
+                <a href="#" class="icon sports">SPORT</a>
+                <a href="#" class="icon think">THINK UP! <span>CONCEPT</span></a>
+                <a href="#" class="icon love">LOVE & WEDDING</a>
+                <a href="#" class="icon production">PRODUCTION</a>
+                <a href="#" class="icon party">PARTY CORP.</a>
+                <a href="#" class="icon holiday">HOLIDAY</a>
+                <a href="#" class="icon nice-mice"><span>NICE</span>MICE</a>
+                <a href="#" class="icon catering">CATERING</a>
+                <a href="#" class="icon kinder">KINDER</a>
+                <a href="#" class="icon promo">PROMO & PRODUCERING</a>
                 <div class="circle inner">
-                    <img src="<?php echo Yii::app()->request->baseUrl; ?>/img/what.png" width="208" height="191" alt="What" />
+                    What<span> do you need<br/>to create<br/>and<br/>celebrate</span>
+                    <span class="center">?</span>
                 </div>
             </div>
-            <div class="right-arrow visible-desktop">
-                <div class="contacts">
-                    <h1>093 086 28 33</h1>
-                    <a href="#" class="btn btn-warning">Замовити дзвінок</a>
-                </div>
+        </div>
+        <div class="span3 right-arrow visible-desktop">
+            <div class="contacts">
+                <h1>093 086 28 33</h1>
+                <a href="#" class="btn btn-warning">Замовити дзвінок</a>
             </div>
-          </div>
         </div>
     </div>
     </article>
