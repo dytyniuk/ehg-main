@@ -95,10 +95,10 @@ return array(
 		),
 		
 		'db'=>array(
-			'connectionString' => 'mysql:host=db13.freehost.com.ua;dbname=ehgroup_barhot1',
+			'connectionString' => 'mysql:host=localhost;dbname=barhot',
 			'emulatePrepare' => true,
-			'username' => 'ehgroup_barhot1',
-			'password' => 'Zv9qtJL3J',
+			'username' => 'root',
+			'password' => 'root',
 			'charset' => 'utf8',
 		),
 		'errorHandler'=>array(
