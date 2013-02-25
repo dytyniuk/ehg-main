@@ -51,6 +51,8 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
+		print_r($_POST);
+		die;
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
@@ -69,7 +71,7 @@ class SiteController extends Controller
 				$this->refresh();
 			}
 		}
-		$this->render('contact',array('model'=>$model));
+		$this->redirect(Yii::app()->user->returnUrl);
 	}
 
 	

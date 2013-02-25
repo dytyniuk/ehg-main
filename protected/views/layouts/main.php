@@ -124,7 +124,7 @@
                     <a href="#" class="social twitter"></a>
                 </div>
                 <div class="span3 hidden-phone">
-                    <form action="" method="post">
+                    <form id="contact-form" action="<?php echo Yii::app()->createUrl('/contact'); ?>" method="post">
                     	<input name="name" type="text"  placeholder="<?php echo Yii::t('main-ui', 'Name'); ?>"/>
                     	<input name="email" type="email" placeholder="E-mail"/>
                     	<input name="phone" type="tel" placeholder="<?php echo Yii::t('main-ui', 'Phone'); ?>"/>
