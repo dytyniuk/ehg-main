@@ -24,20 +24,21 @@
 <div id="callMe" class="modal hide fade" role="dialog">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">x</button>
-        <h3>Замовити дзвінок</h3>
+        <h3><?php echo Yii::t('main-ui', 'Order call') ; ?></h3>
     </div>
-    <form action="#" method="post">
+    <form action="<?php echo Yii::app()->createUrl('/contact'); ?>" method="post">
         <div class="modal-body">
-            <label>Ім’я</label>
-            <input type="text" name="name" placeholder="Ім’я" class="input-xlarge"/>
-            <label>Телефон</label>
-            <input type="text" name="phone" placeholder="0501234567" class="input-xlarge"/>
-            <label>Тема дзвінка</label>
-            <input type="text" name="subject" placeholder="Замовлення" class="input-xlarge"/>
+            <label><?php echo Yii::t('main-ui', 'Name') ; ?></label>
+            <input type="text" name="ContactForm[name]" placeholder="<?php echo Yii::t('main-ui', 'Name') ; ?>" class="input-xlarge"/>
+            <label><?php echo Yii::t('main-ui', 'Phone') ; ?></label>
+            <input type="text" name="ContactForm[phone]" placeholder="<?php echo Yii::t('main-ui', 'Phone') ; ?>" class="input-xlarge"/>
+            <label><?php echo Yii::t('main-ui', 'Message') ; ?></label>
+            <input type="text" name="ContactForm[body]" placeholder="<?php echo Yii::t('main-ui', 'Message') ; ?>я" class="input-xlarge"/>
+            <input type="hidden" value="<?php echo Yii::app()->request->csrfToken; ?>" name="YII_CSRF_TOKEN">
         </div>
         <div class="modal-footer">
-            <button type="reset" class="btn">Очистити</button>
-            <button type="submit" class="btn btn-primary">Замовити</button>
+            <button type="reset" class="btn"><?php echo Yii::t('main-ui', 'Clear') ; ?></button>
+            <button type="submit" class="btn btn-primary"><?php echo Yii::t('main-ui', 'Send') ; ?></button>
         </div>
     </form>
 </div>
