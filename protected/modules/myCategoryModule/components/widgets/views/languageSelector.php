@@ -1,4 +1,4 @@
-<div id="language-select" class='langs'>
+<div id="language-select" class='langs' style='position:absolute; z-index:10;'>
 <?php
     if(sizeof($languages) < 4) { // если языков меньше четырех - отображаем в строчку
         

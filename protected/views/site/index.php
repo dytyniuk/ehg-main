@@ -7,33 +7,33 @@ $this->pageTitle=Yii::app()->name;
     <article class="hidden-phone">
     <div class="row-fluid">
         <div class="span3 left-arrow visible-desktop">
-            1. BUSINESS<br/>
-            2. THINK UP! CONCEPT<br/>
-            3. LOVE & WEDDING<br/>
-            4. PRODUCTION<br/>
-            5. NICE MICE<br/>
-            6. SPORTS<br/>
-            7. CATERING<br/>
-            8. KINDER<br/>
-            9. PROMO & PRODUCERING<br/>
-            10. PARTY CORP.<br/>
-            11. HOLIDAY<br/>
+            1. <?php echo Yii::t('main-ui', 'BUSINESS');?><br/>
+            2. <?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?><br/>
+            3. <?php echo Yii::t('main-ui', 'LOVE & WEDDING');?><br/>
+            4. <?php echo Yii::t('main-ui', 'PRODUCTION');?><br/>
+            5. <?php echo Yii::t('main-ui', 'NICE MICE');?><br/>
+            6. <?php echo Yii::t('main-ui', 'SPORTS');?><br/>
+            7. <?php echo Yii::t('main-ui', 'CATERING');?><br/>
+            8. <?php echo Yii::t('main-ui', 'KINDER');?><br/>
+            9. <?php echo Yii::t('main-ui', 'PROMO & PRODUCERING');?><br/>
+            10. <?php echo Yii::t('main-ui', 'PARTY CORP.');?><br/>
+            11. <?php echo Yii::t('main-ui', 'HOLIDAY');?><br/>
         </div>
         <div class="span6">
             <div class="circle outer">
-                <a href="#" class="icon business">BUSINESS</a>
-                <a href="#" class="icon sports">SPORT</a>
-                <a href="#" class="icon think">THINK UP! <span>CONCEPT</span></a>
-                <a href="#" class="icon love">LOVE & WEDDING</a>
-                <a href="#" class="icon production">PRODUCTION</a>
-                <a href="#" class="icon party">PARTY CORP.</a>
-                <a href="#" class="icon holiday">HOLIDAY</a>
-                <a href="#" class="icon nice-mice"><span>NICE</span>MICE</a>
-                <a href="#" class="icon catering">CATERING</a>
-                <a href="#" class="icon kinder">KINDER</a>
-                <a href="#" class="icon promo">PROMO & PRODUCERING</a>
+                <a href="#" class="icon business"><?php echo Yii::t('main-ui', 'BUSINESS');?></a>
+                <a href="#" class="icon sports"><?php echo Yii::t('main-ui', 'SPORT');?></a>
+                <a href="#" class="icon think"><?php echo Yii::t('main-ui', 'THINK UP!');?> <span><?php echo  Yii::t('main-ui', 'CONCEPT');?></span></a>
+                <a href="#" class="icon love"><?php echo Yii::t('main-ui', 'LOVE & WEDDING');?></a>
+                <a href="#" class="icon production"><?php echo Yii::t('main-ui', 'PRODUCTION');?></a>
+                <a href="#" class="icon party"><?php echo Yii::t('main-ui', 'PARTY CORP.');?></a>
+                <a href="#" class="icon holiday"><?php echo Yii::t('main-ui', 'HOLIDAY');?></a>
+                <a href="#" class="icon nice-mice"><span><?php echo Yii::t('main-ui', 'NICE');?></span><?php echo Yii::t('main-ui', 'MICE');?></a>
+                <a href="#" class="icon catering"><?php echo Yii::t('main-ui', 'CATERING');?></a>
+                <a href="#" class="icon kinder"><?php echo Yii::t('main-ui', 'KINDER');?></a>
+                <a href="#" class="icon promo"></a>
                 <div class="circle inner">
-                    What<span> do you need<br/>to create<br/>and<br/>celebrate</span>
+                    <?php echo Yii::t('main-ui', 'What');?><span> <?php echo Yii::t('main-ui', 'do you need');?><br/><?php echo Yii::t('main-ui', 'to create');?><br/><?php echo Yii::t('main-ui', 'and');?><br/><?php echo Yii::t('main-ui', 'celebrate');?></span>
                     <span class="center">?</span>
                 </div>
             </div>
@@ -41,7 +41,7 @@ $this->pageTitle=Yii::app()->name;
         <div class="span3 right-arrow visible-desktop">
             <div class="contacts">
                 <h1>093 086 28 33</h1>
-                <a href="#" class="btn btn-warning">Замовити дзвінок</a>
+                <a href="#" class="btn btn-warning"><?php echo Yii::t('main-ui', 'Order call');?></a>
             </div>
         </div>
     </div>
