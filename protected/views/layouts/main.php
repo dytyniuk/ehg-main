@@ -20,6 +20,26 @@
 </head>
 
 <body>
+<div id="callMe" class="modal hide fade" role="dialog">
+    <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">x</button>
+        <h3>Замовити дзвінок</h3>
+    </div>
+    <form action="#" method="post">
+        <div class="modal-body">
+            <label>Ім’я</label>
+            <input type="text" name="name" placeholder="Ім’я" class="input-xlarge"/>
+            <label>Телефон</label>
+            <input type="text" name="phone" placeholder="0501234567" class="input-xlarge"/>
+            <label>Тема дзвінка</label>
+            <input type="text" name="subject" placeholder="Замовлення" class="input-xlarge"/>
+        </div>
+        <div class="modal-footer">
+            <button type="reset" class="btn">Очистити</button>
+            <button type="submit" class="btn btn-primary">Замовити</button>
+        </div>
+    </form>
+</div>
 <header>
     <div class="topbar">
         <div class="offset7 span5">
@@ -49,7 +69,7 @@
 							
 							array('label'=>Yii::t('main-ui', 'Portfolio'), 'url'=>array('/portfolio'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/portfolio') ),
 							
-							array('label'=>Yii::t('main-ui', 'Partners'), 'url'=>array('/partners'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/partners')),
+							array('label'=>Yii::t('main-ui', 'Contacts'), 'url'=>array('/contacts'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/contacts')),
                             array('label'=>Yii::t('main-ui', 'About'), 'url'=>array('/about'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/about') ),
 							//array('label'=>'Contact', 'url'=>array('/site/contact')),
 							//array('label'=>'Login', 'url'=>array('/myUserModule/default/login'), 'visible'=>Yii::app()->user->isGuest),

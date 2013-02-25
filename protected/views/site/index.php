@@ -41,7 +41,7 @@ $this->pageTitle=Yii::app()->name;
         <div class="span3 right-arrow visible-desktop">
             <div class="contacts">
                 <h1>093 086 28 33</h1>
-                <a href="#" class="btn btn-warning"><?php echo Yii::t('main-ui', 'Order call');?></a>
+                <a href="#callMe" class="btn btn-warning" role="button" data-toggle="modal"><?php echo Yii::t('main-ui', 'Order call');?></a>
             </div>
             <div style="padding-top: 80px;width: 200px;">
                 <?php
@@ -68,17 +68,17 @@ $this->pageTitle=Yii::app()->name;
     <article>
     <div class="row-fluid">
         <div class="span12 pagination-centered icons-wrapper">
-                    <a href="#" class="span1 round-icon icon-production"></a>
-                    <a href="#" class="span1 round-icon icon-thinkup"></a>
-                    <a href="#" class="span1 round-icon icon-wedding"></a>
-                    <a href="#" class="span1 round-icon icon-partycorp"></a>
-                    <a href="#" class="span1 round-icon icon-kinder"></a>
-                    <a href="#" class="span1 round-icon icon-sports"></a>
-                    <a href="#" class="span1 round-icon icon-business"></a>
-                    <a href="#" class="span1 round-icon icon-nice-mice"></a>
-                    <a href="#" class="span1 round-icon icon-holiday"></a>
-                    <a href="#" class="span1 round-icon icon-catering"></a>
-                    <a href="#" class="span1 round-icon icon-promo"></a>
+            <a href="#" class="span1 round-icon icon-production"><span class="visible-phone">Production</span></a>
+            <a href="#" class="span1 round-icon icon-thinkup"><span class="visible-phone">Think Up! Concept</span></a>
+            <a href="#" class="span1 round-icon icon-wedding"><span class="visible-phone">Love & Wedding</span></a>
+            <a href="#" class="span1 round-icon icon-partycorp"><span class="visible-phone">Party Corp.</span></a>
+            <a href="#" class="span1 round-icon icon-kinder"><span class="visible-phone">Kinder</span></a>
+            <a href="#" class="span1 round-icon icon-sports"><span class="visible-phone">Sports</span></a>
+            <a href="#" class="span1 round-icon icon-business"><span class="visible-phone">Business</span></a>
+            <a href="#" class="span1 round-icon icon-nice-mice"><span class="visible-phone">NiceMICE</span></a>
+            <a href="#" class="span1 round-icon icon-holiday"><span class="visible-phone">Holiday</span></a>
+            <a href="#" class="span1 round-icon icon-catering"><span class="visible-phone">Catering</span></a>
+            <a href="#" class="span1 round-icon icon-promo"><span class="visible-phone">Promo & Producering</span></a>
         </div>
     </div>
     </article>

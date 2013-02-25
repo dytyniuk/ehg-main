@@ -95,7 +95,8 @@ a.production { background: url('img/signs/production.png') top left no-repeat; w
 a.party { background: url('img/signs/partycorp.png') top left no-repeat; width: 35px; height: 41px; bottom: 20px; left: 230px; font-size: 16pt; padding-top: 40px; padding-left: 50px;}
 a.holiday { background: url('img/signs/holiday.png') bottom center no-repeat; width: 89px; height: 54px; bottom: 35px; right: 220px; font-size: 18pt;text-align: center;}
 div.icons-wrapper { padding-left: 8.4%;}
-a.round-icon { background-position: top center; background-repeat: no-repeat; height: 72px;}
+a.round-icon { background-position: top left; background-repeat: no-repeat; height: 72px; font-size: 18pt; font-family: "BigNoodleTitling"; padding-top: 30px;} 
+a.round-icon span { display: inline-block; }
 a.icon-production { background-image: url('img/icons/production.png'); }
 a.icon-thinkup { background-image: url('img/icons/think-up.png'); }
 a.icon-wedding { background-image: url('img/icons/love-n-wedding.png'); }
