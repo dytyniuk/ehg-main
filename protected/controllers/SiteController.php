@@ -51,16 +51,17 @@ class SiteController extends Controller
 	 */
 	public function actionContact()
 	{
-		print_r($_POST);
-		die;
+		
 		$model=new ContactForm;
 		if(isset($_POST['ContactForm']))
 		{
 			$model->attributes=$_POST['ContactForm'];
+			print_r($model->attributes);
+			die;
 			if($model->validate())
 			{
 				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
-				$subject='=?UTF-8?B?'.base64_encode($model->subject).'?=';
+				$subject='=?UTF-8?B?'.base64_encode($model->phone).'?=';
 				$headers="From: $name <{$model->email}>\r\n".
 					"Reply-To: {$model->email}\r\n".
 					"MIME-Version: 1.0\r\n".
@@ -68,10 +69,10 @@ class SiteController extends Controller
 
 				mail(Yii::app()->params['adminEmail'],$subject,$model->body,$headers);
 				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
-				$this->refresh();
+				
 			}
 		}
-		$this->redirect(Yii::app()->user->returnUrl);
+		$this->redirect(Yii::app()->baseUrl);
 	}
 
 	

@@ -67,7 +67,8 @@ return array(
 
 				'<language:(en|ru|uk)>' => '/',
 				'looggin'=>'myUserModule/default/login',
-				'contact'=>'site/contacts',
+				'(ru|uk|en)/contact'=>'site/contact',
+
 				'(ru|uk|en)/partner/<id:[\s\S]+>' => 'myCategoryModule/material/view',
 				'(ru|uk|en)/partner' => 'myCategoryModule/material/index/category_id/1',
 

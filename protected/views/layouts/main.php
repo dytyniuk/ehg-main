@@ -125,10 +125,11 @@
                 </div>
                 <div class="span3 hidden-phone">
                     <form id="contact-form" action="<?php echo Yii::app()->createUrl('/contact'); ?>" method="post">
-                    	<input name="name" type="text"  placeholder="<?php echo Yii::t('main-ui', 'Name'); ?>"/>
-                    	<input name="email" type="email" placeholder="E-mail"/>
-                    	<input name="phone" type="tel" placeholder="<?php echo Yii::t('main-ui', 'Phone'); ?>"/>
-                        <textarea id="" name="" rows="3" cols="30" placeholder="<?php echo Yii::t('main-ui', 'Message'); ?>"></textarea>
+                    	<input name="ContactForm[name]" type="text"  placeholder="<?php echo Yii::t('main-ui', 'Name'); ?>"/>
+                    	<input name="ContactForm[email]" type="email" placeholder="E-mail"/>
+                        <input type="hidden" value="<?php echo Yii::app()->request->csrfToken; ?>" name="YII_CSRF_TOKEN">
+                    	<input name="ContactForm[phone]" type="tel" placeholder="<?php echo Yii::t('main-ui', 'Phone'); ?>"/>
+                        <textarea id="" name="ContactForm[body]" rows="3" cols="30" placeholder="<?php echo Yii::t('main-ui', 'Message'); ?>"></textarea>
                         <button type="submit" class="btn btn-warning btn-small"><?php echo Yii::t('main-ui', 'Send'); ?></button>
                         <button type="reset" class="btn btn-small"><?php echo Yii::t('main-ui', 'Clear'); ?></button>
                     </form>
