@@ -31,7 +31,7 @@ $this->pageTitle=Yii::app()->name;
                 <a href="#" class="icon nice-mice"><span><?php echo Yii::t('main-ui', 'NICE');?></span><?php echo Yii::t('main-ui', 'MICE');?></a>
                 <a href="#" class="icon catering"><?php echo Yii::t('main-ui', 'CATERING');?></a>
                 <a href="#" class="icon kinder"><?php echo Yii::t('main-ui', 'KINDER');?></a>
-                <a href="#" class="icon promo"></a>
+                <a href="#" class="icon promo"><?php echo Yii::t('main-ui', 'PROMO & PRODUCERING');?></a>
                 <div class="circle inner">
                     <?php echo Yii::t('main-ui', 'What');?><span> <?php echo Yii::t('main-ui', 'do you need');?><br/><?php echo Yii::t('main-ui', 'to create');?><br/><?php echo Yii::t('main-ui', 'and');?><br/><?php echo Yii::t('main-ui', 'celebrate');?></span>
                     <span class="center">?</span>
