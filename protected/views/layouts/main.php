@@ -13,7 +13,8 @@
 
 
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->request->baseUrl; ?>/css/admin_css.css" />
-    <script src="<?php echo Yii::app()->baseUrl;?>/jscripts/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js" type="text/javascript"></script>
+    <script src="<?php echo Yii::app()->baseUrl;?>/js/bootstrap.min.js" type="text/javascript"></script>
     <script src="<?php echo Yii::app()->baseUrl;?>/jscripts/lightbox/js/lightbox.js"></script>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
