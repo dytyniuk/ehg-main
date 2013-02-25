@@ -56,8 +56,7 @@ class SiteController extends Controller
 		if(isset($_POST['ContactForm']))
 		{
 			$model->attributes=$_POST['ContactForm'];
-			print_r($model->attributes);
-			die;
+			
 			if($model->validate())
 			{
 				$name='=?UTF-8?B?'.base64_encode($model->name).'?=';
@@ -72,7 +71,7 @@ class SiteController extends Controller
 				
 			}
 		}
-		$this->redirect(Yii::app()->baseUrl);
+		$this->redirect('http://www.ehgroup.com.ua/');
 	}
 
 	

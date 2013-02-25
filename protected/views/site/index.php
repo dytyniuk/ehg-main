@@ -43,6 +43,18 @@ $this->pageTitle=Yii::app()->name;
                 <h1>093 086 28 33</h1>
                 <a href="#" class="btn btn-warning"><?php echo Yii::t('main-ui', 'Order call');?></a>
             </div>
+            <div style="padding-top: 80px;width: 200px;">
+                <?php
+                    if(Yii::app()->language=='uk'){
+                        echo ' Ласкаво просимо в Event Holding Group! Наш світ сповнений цікавих заходів та неймовірних втілень ваших задумок в життя!!!Дивуйтеся з нами, захоплюйтесь з нами, творіть з нами, святкуйте з нами!';
+                    }elseif (Yii::app()->language=='ru') {
+                        echo 'Добро пожаловать в Event Holding Group! Наш мир преисполнен интересных мероприятий и невероятных воплощений ваших задумок в жизнь!!! Удивляйтесь с нами, увлекайтесь с нами, творите с нами, празднуйте с нами!';
+                    }else{
+                        echo 'Welcome to Event Holding Group! Our world is full of interesting measures and unbelievable embodiments of your planning in life!!! Surprised with us, be carried away with us, create with us, celebrate with us!';
+                    }
+                ?>
+               
+            </div>
         </div>
     </div>
     </article>

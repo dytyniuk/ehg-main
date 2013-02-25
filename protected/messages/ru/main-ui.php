@@ -13,6 +13,7 @@ return array(
 	 'Delete User' => 'Удалить пользователя',
 	 'Projects' => 'Проекты',
 	 'Partners' => 'Партнеры',
+	 'Portfolio' => 'Портфолио',
 	 'About' => 'О Нас',
 	 'Download our brief!' => 'Скачайте наш бриф!',
 	 'Download' => 'Скачать',
