@@ -23,9 +23,9 @@
 <header>
     <div class="topbar">
         <div class="offset7 span5">
-            <a href="#" class="social facebook"></a>
-            <a href="#" class="social vk"></a>
-            <a href="#" class="social twitter"></a>
+            <a href="https://www.facebook.com/pages/Event-Holding-Group/557530554258389" class="social facebook"></a>
+            <a href="http://vk.com/ehgevent" class="social vk"></a>
+            <a href="https://twitter.com/EventHoldingGrp" class="social twitter"></a>
             <div class='fix1'>
 	            <form action="#" method="post" class="form-search pull-right">
 	                <input type="text" class="input-small search-query" placeholder="Пошук">
@@ -119,9 +119,9 @@
                     <br/>
                     info@ehgroup.com.ua<br/>
                     <br/>
-                    <a href="#" class="social facebook"></a>
-                    <a href="#" class="social vk"></a>
-                    <a href="#" class="social twitter"></a>
+                    <a href="https://www.facebook.com/pages/Event-Holding-Group/557530554258389" class="social facebook"></a>
+                    <a href="http://vk.com/ehgevent" class="social vk"></a>
+                    <a href="https://twitter.com/EventHoldingGrp" class="social twitter"></a>
                 </div>
                 <div class="span3 hidden-phone">
                     <form id="contact-form" action="<?php echo Yii::app()->createUrl('/contact'); ?>" method="post">
