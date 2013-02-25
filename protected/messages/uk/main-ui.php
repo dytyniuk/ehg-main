@@ -53,6 +53,8 @@ return array(
 	 'to create' => 'щоб створити',
 	 'and' => 'та',
 	 'celebrate' => 'святкувати',
+	 'Part ners' => 'Парт нери',
+	 'Port folio' => 'Порт фоліо',
 );
 
 ?> 

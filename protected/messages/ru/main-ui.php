@@ -52,6 +52,8 @@ return array(
 	 'to create' => 'что бы создать',
 	 'and' => 'и',
 	 'celebrate' => 'веселиться',
+	 'Part ners' => 'Парт неры',
+	 'Port folio' => 'Порт фолио',
 );
 
 
