@@ -55,6 +55,8 @@ return array(
 	 'celebrate' => 'святкувати',
 	 'Part ners' => 'Парт нери',
 	 'Port folio' => 'Порт фоліо',
+	 'THINK UP!' => ' ',
+	 'CONCEPT' => 'КОНЦЕПТИ',
 );
 
 ?> 
