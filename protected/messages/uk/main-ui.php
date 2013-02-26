@@ -57,6 +57,7 @@ return array(
 	 'Port folio' => 'Порт фоліо',
 	 'THINK UP!' => ' ',
 	 'CONCEPT' => 'КОНЦЕПТИ',
+	 'SPORT' => 'СПОРТ',
 );
 
 ?> 

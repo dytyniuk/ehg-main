@@ -27,7 +27,7 @@ $this->pageTitle=Yii::app()->name;
                 <a href="#" class="icon love"><?php echo Yii::t('main-ui', 'LOVE & WEDDING');?></a>
                 <a href="#" class="icon production"><?php echo Yii::t('main-ui', 'PRODUCTION');?></a>
                 <a href="#" class="icon party"><?php echo Yii::t('main-ui', 'PARTY CORP.');?></a>
-                <a href="#" class="icon holiday"><?php echo Yii::t('main-ui', 'HOLIDAY');?></a>
+                <a href="http://holliday.ehgroup.com.ua/" class="icon holiday"><?php echo Yii::t('main-ui', 'HOLIDAY');?></a>
                 <a href="#" class="icon nice-mice"><span><?php echo Yii::t('main-ui', 'NICE');?></span><?php echo Yii::t('main-ui', 'MICE');?></a>
                 <a href="#" class="icon catering"><?php echo Yii::t('main-ui', 'CATERING');?></a>
                 <a href="#" class="icon kinder"><?php echo Yii::t('main-ui', 'KINDER');?></a>
