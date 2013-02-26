@@ -7,17 +7,17 @@ $this->pageTitle=Yii::app()->name;
     <article class="hidden-phone">
     <div class="row-fluid">
         <div class="span3 left-arrow visible-desktop">
-            1. <?php echo Yii::t('main-ui', 'BUSINESS');?><br/>
-            2. <?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?><br/>
+            1. <?php echo Yii::t('main-ui', 'HOLIDAY');?><br/>
+            2. <?php echo Yii::t('main-ui', 'BUSINESS');?><br/>
             3. <?php echo Yii::t('main-ui', 'LOVE & WEDDING');?><br/>
-            4. <?php echo Yii::t('main-ui', 'PRODUCTION');?><br/>
-            5. <?php echo Yii::t('main-ui', 'NICE MICE');?><br/>
-            6. <?php echo Yii::t('main-ui', 'SPORTS');?><br/>
-            7. <?php echo Yii::t('main-ui', 'CATERING');?><br/>
+            4. <?php echo Yii::t('main-ui', 'SPORTS');?><br/>
+            5. <?php echo Yii::t('main-ui', 'PARTY CORP.');?><br/>
+            6. <?php echo Yii::t('main-ui', 'NICE MICE');?><br/>
+            7. <?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?><br/>
             8. <?php echo Yii::t('main-ui', 'KINDER');?><br/>
             9. <?php echo Yii::t('main-ui', 'PROMO & PRODUCERING');?><br/>
-            10. <?php echo Yii::t('main-ui', 'PARTY CORP.');?><br/>
-            11. <?php echo Yii::t('main-ui', 'HOLIDAY');?><br/>
+            10. <?php echo Yii::t('main-ui', 'PRODUCTION');?><br/>
+            11. <?php echo Yii::t('main-ui', 'CATERING');?><br/>
         </div>
         <div class="span6">
             <div class="circle outer">
@@ -43,18 +43,7 @@ $this->pageTitle=Yii::app()->name;
                 <h1>093 086 28 33</h1>
                 <a href="#callMe" class="btn btn-warning" role="button" data-toggle="modal"><?php echo Yii::t('main-ui', 'Order call');?></a>
             </div>
-            <div style="padding-top: 80px;width: 200px;">
-                <?php
-                    if(Yii::app()->language=='uk'){
-                        echo ' Ласкаво просимо в Event Holding Group! Наш світ сповнений цікавих заходів та неймовірних втілень ваших задумок в життя!!!Дивуйтеся з нами, захоплюйтесь з нами, творіть з нами, святкуйте з нами!';
-                    }elseif (Yii::app()->language=='ru') {
-                        echo 'Добро пожаловать в Event Holding Group! Наш мир преисполнен интересных мероприятий и невероятных воплощений ваших задумок в жизнь!!! Удивляйтесь с нами, увлекайтесь с нами, творите с нами, празднуйте с нами!';
-                    }else{
-                        echo 'Welcome to Event Holding Group! Our world is full of interesting measures and unbelievable embodiments of your planning in life!!! Surprised with us, be carried away with us, create with us, celebrate with us!';
-                    }
-                ?>
-               
-            </div>
+            
         </div>
     </div>
     </article>
