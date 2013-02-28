@@ -7,17 +7,17 @@ $this->pageTitle=Yii::app()->name;
     <article class="hidden-phone">
     <div class="row-fluid">
         <div class="span3 left-arrow visible-desktop">
-            1. <?php echo Yii::t('main-ui', 'HOLIDAY');?><br/>
-            2. <?php echo Yii::t('main-ui', 'BUSINESS');?><br/>
-            3. <?php echo Yii::t('main-ui', 'LOVE & WEDDING');?><br/>
-            4. <?php echo Yii::t('main-ui', 'SPORTS');?><br/>
-            5. <?php echo Yii::t('main-ui', 'PARTY CORP.');?><br/>
-            6. <?php echo Yii::t('main-ui', 'NICE MICE');?><br/>
-            7. <?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?><br/>
-            8. <?php echo Yii::t('main-ui', 'KINDER');?><br/>
-            9. <?php echo Yii::t('main-ui', 'PROMO & PRODUCERING');?><br/>
-            10. <?php echo Yii::t('main-ui', 'PRODUCTION');?><br/>
-            11. <?php echo Yii::t('main-ui', 'CATERING');?><br/>
+            <a href="http://holiday.ehgroup.com.ua/" class="icon2">1. <?php echo Yii::t('main-ui', 'HOLIDAY');?></a><br/>
+            <a href="#" class="icon2">2. <?php echo Yii::t('main-ui', 'BUSINESS');?></a><br/>
+            <a href="#" class="icon2">3. <?php echo Yii::t('main-ui', 'LOVE & WEDDING');?></a><br/>
+            <a href="#" class="icon2">4. <?php echo Yii::t('main-ui', 'SPORTS');?></a><br/>
+            <a href="#" class="icon2">5. <?php echo Yii::t('main-ui', 'PARTY CORP.');?></a><br/>
+            <a href="#" class="icon2">6. <?php echo Yii::t('main-ui', 'NICE MICE');?></a><br/>
+            <a href="#" class="icon2">7. <?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?></a><br/>
+            <a href="#" class="icon2">8. <?php echo Yii::t('main-ui', 'KINDER');?></a><br/>
+            <a href="#" class="icon2">9. <?php echo Yii::t('main-ui', 'PROMO & PRODUCERING');?></a><br/>
+            <a href="#" class="icon2">10. <?php echo Yii::t('main-ui', 'PRODUCTION');?></a><br/>
+            <a href="#" class="icon2">11. <?php echo Yii::t('main-ui', 'CATERING');?></a><br/>
         </div>
         <div class="span6">
             <div class="circle outer">

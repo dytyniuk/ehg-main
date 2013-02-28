@@ -80,6 +80,7 @@ header form { margin-bottom: 10px; }
 .contacts {margin-left: 60px;}
 .contacts h1 { font-family: "BigNoodleTitling"; font-weight: normal; }
 a.icon { display: block; position: absolute; font-family: "BigNoodleTitling"; color: #333; font-size: 20pt;}
+a.icon2 { display: block; position: absolute; font-family: "BigNoodleTitling"; color: #999; font-size: 20pt;}
 a.icon:focus, a.icon:hover { text-decoration: none; }
 a.business { background: url('img/signs/business.png') top right no-repeat; width: 103px; height: 15px; left: 160px; top: 24px; padding-top: 70px; padding-right: 50px; text-align: right;}
 a.sports { background: url('img/signs/sports.png') top left no-repeat; width: 50px; height: 20px; left: 355px; top: 30px; padding-top: 60px; padding-left: 40px;}
