@@ -76,7 +76,7 @@ header form { margin-bottom: 10px; }
 .langs A { font-weight: bold; }
 .langs A.active {color: #C6274F; }
 .left-arrow { background: url('img/left-arrow.png') right bottom no-repeat; float: left; width: 200px; padding: 90px 0px 80px 30px; font-size: 20pt; color: #999; font-weight: normal; line-height: 1.2em; font-family: "BigNoodleTitling"}
-.right-arrow { background: url('img/right-arrow.png') no-repeat; background-position: 0px 100px; float: right; height: 50px; width: 250px; height: 400px;}
+.right-arrow { background: url('img/right-arrow.png') no-repeat; background-position: 0px 150px; float: right; height: 50px; width: 250px; height: 400px;}
 .contacts {margin-left: 60px;}
 .contacts h1 { font-family: "BigNoodleTitling"; font-weight: normal; }
 a.icon { display: block; position: absolute; font-family: "BigNoodleTitling"; color: #333; font-size: 20pt;}
