@@ -183,7 +183,7 @@ $editor = new TinyMCELoader('textarea');
 	
 	$this->widget('CMultiFileUpload', array(
 	    'name'=>'files',
-	    'accept'=>'jpg|gif|png',
+	    'accept'=>'jpeg|jpg|gif|png',
 	    'duplicate' => 'Duplicate file!',
    		'denied' => 'Invalid file type',
 	));
