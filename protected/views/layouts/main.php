@@ -71,7 +71,7 @@
 							
 							array('label'=>Yii::t('main-ui', 'Portfolio'), 'url'=>array('/portfolio'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/portfolio') ),
 							
-							array('label'=>Yii::t('main-ui', 'Contacts'), 'url'=>array('/contacts'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/contacts')),
+							array('label'=>Yii::t('main-ui', 'Partners'), 'url'=>array('/partners'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/partners')),
                             array('label'=>Yii::t('main-ui', 'About'), 'url'=>array('/about'), 'linkOptions'=>array('class'=>'span3'), 'active' => strpos(Yii::app()->request->requestUri, '/about') ),
 							//array('label'=>'Contact', 'url'=>array('/site/contact')),
 							//array('label'=>'Login', 'url'=>array('/myUserModule/default/login'), 'visible'=>Yii::app()->user->isGuest),
