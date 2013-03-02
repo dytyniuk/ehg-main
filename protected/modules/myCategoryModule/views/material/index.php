@@ -49,6 +49,7 @@
 <div class="span3 visible-desktop">
     <div class="contacts">
         <h1>093 086 28 33</h1>
-        <a href="#" class="btn btn-warning"><?php echo Yii::t('main-ui', 'Order call');?></a>
+                <h1>044 425 10 23</h1>
+                <a href="#callMe" class="btn btn-warning" role="button" data-toggle="modal"><?php echo Yii::t('main-ui', 'Order call');?></a>
     </div>
 </div>
