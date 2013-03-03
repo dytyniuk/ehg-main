@@ -19,7 +19,7 @@
 					echo '</div>';
 				echo '</a></li>';
 			}
-			echo '<ul>';
+			echo '</ul>';
 		}
 	?>
 

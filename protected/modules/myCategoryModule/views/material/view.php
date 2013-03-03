@@ -34,7 +34,7 @@
             }
         }
 
-        echo '<ul>';
+        echo '</ul>';
     ?>
     <?php echo $model->description; ?>
 </div>
