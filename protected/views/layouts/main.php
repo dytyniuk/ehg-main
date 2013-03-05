@@ -113,7 +113,15 @@
         	<div class="row-fluid">
                 <div class="span2 brief">
                     <?php echo Yii::t('main-ui', 'Download our brief!'); ?><br/>
-                    <a href="<?php echo Yii::app()->request->baseUrl; ?>/css/Brif.doc" class="btn btn-warning"><?php echo Yii::t('main-ui', 'Download'); ?></a>
+                    <a href="<?php 
+                        if(Yii::app()->language == 'uk'){
+                            echo Yii::app()->request->baseUrl.'/css/Brif.doc'; 
+                        }elseif (Yii::app()->language == 'en') {
+                            echo Yii::app()->request->baseUrl.'/css/Brif_eng.doc'; 
+                        }else{
+                            echo Yii::app()->request->baseUrl.'/css/Brif_rus.doc'; 
+                        }
+                    ?>" class="btn btn-warning"><?php echo Yii::t('main-ui', 'Download'); ?></a>
                 </div>
                 <div class="span3 news">
                     <h4><?php echo Yii::t('main-ui', 'Latest News'); ?></h4>
