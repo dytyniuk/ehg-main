@@ -146,6 +146,7 @@
                     <span class="orange"><?php echo Yii::t('main-ui', 'вул. Верхній Вал, 30а'); ?></span><br/>
                     <br/>
                     +38 093 086 28 33<br/>
+                    +38 044 425 10 23<br/>
                     <br/>
                     info@ehgroup.com.ua<br/>
                     <br/>
