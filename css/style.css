@@ -125,3 +125,4 @@ a.twitter { background-image: url('img/twitter.png'); }
 .pagination a:hover, .pagination a:focus, .pagination ul > li.active > a:hover {color: #C3025D; }
 .pagination ul > li.active > a { background-color: #C3025D; color: #FFF;}
 div.thumbnail { background: #FFF; }
+.button-column a:first-child{display: none};
