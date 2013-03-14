@@ -10,7 +10,7 @@ $this->pageTitle=Yii::app()->name;
             <a href="http://holiday.ehgroup.com.ua/" class="icon2">1. <?php echo Yii::t('main-ui', 'HOLIDAY');?></a><br/>
             <a href="#" class="icon2">2. <?php echo Yii::t('main-ui', 'BUSINESS');?></a><br/>
             <a href="#" class="icon2">3. <?php echo Yii::t('main-ui', 'LOVE & WEDDING');?></a><br/>
-            <a href="#" class="icon2">4. <?php echo Yii::t('main-ui', 'SPORTS');?></a><br/>
+            <a href="http://sports.ehgroup.com.ua/" class="icon2">4. <?php echo Yii::t('main-ui', 'SPORTS');?></a><br/>
             <a href="#" class="icon2">5. <?php echo Yii::t('main-ui', 'PARTY CORP.');?></a><br/>
             <a href="#" class="icon2">6. <?php echo Yii::t('main-ui', 'NICE MICE');?></a><br/>
             <a href="#" class="icon2">7. <?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?></a><br/>
@@ -22,7 +22,7 @@ $this->pageTitle=Yii::app()->name;
         <div class="span6">
             <div class="circle outer">
                 <a href="#" class="icon business"><?php echo Yii::t('main-ui', 'BUSINESS');?></a>
-                <a href="#" class="icon sports"><?php echo Yii::t('main-ui', 'SPORT');?></a>
+                <a href="http://sports.ehgroup.com.ua/" class="icon sports"><?php echo Yii::t('main-ui', 'SPORT');?></a>
                 <a href="#" class="icon think"><?php echo Yii::t('main-ui', 'THINK UP!');?> <span><?php echo  Yii::t('main-ui', 'CONCEPT');?></span></a>
                 <a href="#" class="icon love"><?php echo Yii::t('main-ui', 'LOVE & WEDDING');?></a>
                 <a href="#" class="icon production"><?php echo Yii::t('main-ui', 'PRODUCTION');?></a>
@@ -58,17 +58,17 @@ $this->pageTitle=Yii::app()->name;
     <article>
     <div class="row-fluid">
         <div class="span12 pagination-centered icons-wrapper">
-            <a href="#" class="span1 round-icon icon-production"><span class="visible-phone">Production</span></a>
-            <a href="#" class="span1 round-icon icon-thinkup"><span class="visible-phone">Think Up! Concept</span></a>
-            <a href="#" class="span1 round-icon icon-wedding"><span class="visible-phone">Love & Wedding</span></a>
-            <a href="#" class="span1 round-icon icon-partycorp"><span class="visible-phone">Party Corp.</span></a>
-            <a href="#" class="span1 round-icon icon-kinder"><span class="visible-phone">Kinder</span></a>
-            <a href="#" class="span1 round-icon icon-sports"><span class="visible-phone">Sports</span></a>
-            <a href="#" class="span1 round-icon icon-business"><span class="visible-phone">Business</span></a>
-            <a href="#" class="span1 round-icon icon-nice-mice"><span class="visible-phone">NiceMICE</span></a>
-            <a href="http://holiday.ehgroup.com.ua/" class="span1 round-icon icon-holiday"><span class="visible-phone">Holiday</span></a>
-            <a href="#" class="span1 round-icon icon-catering"><span class="visible-phone">Catering</span></a>
-            <a href="#" class="span1 round-icon icon-promo"><span class="visible-phone">Promo & Producering</span></a>
+            <a href="#" class="span1 round-icon icon-production"><span class="my_vf "><?php echo Yii::t('main-ui', 'PRODUCTION');?></span></a>
+            <a href="#" class="span1 round-icon icon-thinkup"><span class="my_vf "><?php echo Yii::t('main-ui', 'THINK UP! CONCEPT');?></span></a>
+            <a href="#" class="span1 round-icon icon-wedding"><span class="my_vf "><?php echo Yii::t('main-ui', 'LOVE & WEDDING');?></span></a>
+            <a href="#" class="span1 round-icon icon-partycorp"><span class="my_vf "><?php echo Yii::t('main-ui', 'PARTY CORP.');?></span></a>
+            <a href="#" class="span1 round-icon icon-kinder"><span class="my_vf "><?php echo Yii::t('main-ui', 'KINDER');?></span></a>
+            <a href="http://sports.ehgroup.com.ua/" class="span1 round-icon icon-sports"><span class="my_vf "><?php echo Yii::t('main-ui', 'SPORT');?></span></a>
+            <a href="#" class="span1 round-icon icon-business"><span class="my_vf "><?php echo Yii::t('main-ui', 'BUSINESS');?></span></a>
+            <a href="#" class="span1 round-icon icon-nice-mice"><span class="my_vf "><?php echo Yii::t('main-ui', 'NICE');?></br><?php echo Yii::t('main-ui', 'MICE');?></span></a>
+            <a href="http://holiday.ehgroup.com.ua/" class="span1 round-icon icon-holiday"><span class="my_vf "><?php echo Yii::t('main-ui', 'HOLIDAY');?></span></a>
+            <a href="#" class="span1 round-icon icon-catering"><span class="my_vf "><?php echo Yii::t('main-ui', 'CATERING');?></span></a>
+            <a href="#" class="span1 round-icon icon-promo"><span class="my_vf "><?php echo Yii::t('main-ui', 'PROMO & PRODUCERING');?></span></a>
         </div>
     </div>
     </article>
